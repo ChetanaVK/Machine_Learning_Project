@@ -1,0 +1,24 @@
+Content Based Recommender System
+
+Dataset:
+Dataset Used: "netflix_titles.csv"
+The Netflix dataset has been used in the Content Based Recommender System. 
+Netflix is one of the most popular media and video streaming platforms. They have over 8000 movies or tv shows available on their platform, as of mid-2021, 
+they have over 200M Subscribers globally. This tabular dataset consists of listings of all the movies and tv shows available on Netflix, 
+along with details of the respective columns: show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description. 
+
+Implementation:
+1. Read the input file.
+2. Plot graphs and analyze data.
+3. Pre-process data.
+4. Build a recommendation system using tf-idf and cosine similarity index. Initially, construct the tf-idf matrix by fitting and transforming the data. 
+5. Compute the cosine similarity matrix. 
+6. Implement a function to get recommendations based on similarity scores. The function initially includes getting the indices of all the titles. Getting the pairwise similarity score for all the movies based on that movie. Sort the movies based on the similarity score. Get the scores of 10 most similar movies. Get the movie indices. Return the top 10 most similar movies. 
+7. Test out the implementation of recommendation of content by passing the content name into the function above. 
+8. In order to get better accurate results, implement the content based filtering method. Initially identify the features on which the model is to be filtered. 
+9. Use the count vectorizer method and calculate the cosine similarity. 
+10. Implement a function to get recommendations. The function is implemented in the same method as above. 
+11. Test out the implementation of recommendation of content by passing the content name into the function above. 
+12. The image of the sample output has been included in the folder called Output_Image. 
+ 
+
